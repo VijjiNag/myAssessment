@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have used local storage to store registered data. It will be used for login with email and password.
+When the user tries to login with invalid details, then there will be error message shown.
 
 ## Available Scripts
 
