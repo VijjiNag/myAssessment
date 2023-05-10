@@ -1,0 +1,77 @@
+.bg-container {
+    background-color: #f2f2f2;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-head {
+    color: #0f0021;
+    font-size: 70px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.main-desc {
+    color: #444445;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.create-account-btn {
+    background-color: #0202db;
+    border-width: 0px;
+    border-radius: 8px;
+    font-weight: bold;
+    height: 35px;
+    width: 200px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.login-btn {
+    background-color: #9494f2;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 35px;
+    width: 200px;
+    color: #0c0c0f;
+    cursor: pointer;
+}
+@media screen and (max-width:605px) {
+    .main-head {
+        font-size: 50px;
+    }
+    .main-desc {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:415px) {
+    .main-head {
+        font-size: 40px;
+    }
+    .main-desc {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .bg-container {
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .main-head {
+        text-align: left;
+        font-size: 30px;
+    }
+    .main-desc {
+        text-align: left;
+    }
+}

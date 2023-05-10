@@ -1,0 +1,101 @@
+.reg-container {
+  background-color: #f2f2f2;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.reg-head {
+  color: black;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.home-btn {
+  background-color: #8282fa;
+  border-width: 0px;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 35px;
+  width: 200px;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success-msg {
+  color: green;
+  margin-top: 5px;
+}
+
+.form {
+  width: 35%;
+}
+
+.label {
+  color: #8282fa;
+  font-size: 18px;
+}
+
+.btn-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  outline: none;
+  border-color: #ababab;
+}
+
+.reg-desc {
+  color: black;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.radio-label {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+@media screen and (max-width:621px) {
+  .reg-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .form {
+    width: 100%;
+  }
+  .reg-head {
+    text-align: left;
+  }
+}
